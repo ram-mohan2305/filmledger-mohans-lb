@@ -54,9 +54,9 @@ export default function FooterCom() {
                 <FooterCopyright href='#' by='FilmLedger' year={new Date().getFullYear()}/>
                 <div className='flex gap-6 sm:mt-0 mt-4 sm:justify-center'>
                     <FooterIcon href='#' icon={BsFacebook}/>
-                    <FooterIcon href='#' icon={BsInstagram}/>
-                    <FooterIcon href='#' icon={BsTwitter}/>
-                    <FooterIcon href='#' icon={BsGithub}/>
+                    <FooterIcon href='https://www.instagram.com/__ram.mohan__/' icon={BsInstagram}/>
+                    <FooterIcon href='https://x.com/keshu2305' icon={BsTwitter}/>
+                    <FooterIcon href='https://github.com/ram-mohan2305' icon={BsGithub}/>
                 </div>
             </div>
         </div>
