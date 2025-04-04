@@ -60,7 +60,7 @@ export default function Signin() {
               <Label>Your password</Label>
               <TextInput type='password' placeholder='**********' id='password' onChange={handleChange}/>
             </div>
-            <Button gradientDuoTone='purpleToPink' type='submit' disabled={loading}>
+            <Button className='bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800' type='submit' disabled={loading}>
               {
                 loading ? (
                   <>
